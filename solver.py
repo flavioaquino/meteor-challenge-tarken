@@ -102,7 +102,7 @@ stars, meteors, meteors_on_water, hidden_phrase = analyze_image(image_path)
 print("Number of Stars:", stars)
 print("Number of Meteors:", meteors)
 print("Number of Meteors falling on Water:", meteors_on_water)
-# print("Hidden Phrase:", hidden_phrase)
+print("Hidden Phrase:", hidden_phrase)
 
 generate_meteor_image(input_image_path, output_image_path)
 
